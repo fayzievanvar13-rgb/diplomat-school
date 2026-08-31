@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Diplomat International School</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Шапка -->
+    <header class="header">
+        <div class="logo">
+            🎓 Diplomat
+        </div>
+
+<nav class="nav">
+    <a href="#home">Главная</a>
+    <a href="#about">О школе</a>
+    <a href="#campus">Наш кампус</a>
+    <a href="#advantages">Преимущества</a>
+    <a href="#menu">Меню</a>
+    <a href="#contact">Контакты</a>
+</nav>
+
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    </header>
+
+
+    <!-- Главный экран -->
+ <section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <p class="small-title">PRIVATE INTERNATIONAL SCHOOL</p>
+
+        <h1>
+            Diplomat<br>
+            International School
+        </h1>
+
+        <p>
+            Образование, которое открывает двери
+            в будущее.
+        </p>
+
+        <button class="main-btn" onclick="showAdmission()">
+            Поступить в школу
+        </button>
+
+    </div>
+
+</section>
+
+
+    <!-- О школе -->
+    <section class="about" id="about">
+
+        <div class="section-title">
+            <p>О НАС</p>
+            <h2>Школа для будущих лидеров</h2>
+        </div>
+
+        <div class="about-content">
+
+            <div class="about-text">
+                <h3>Diplomat International School</h3>
+
+                <p>
+                    Мы создаём современную образовательную среду,
+                    где каждый ученик может раскрыть свои способности,
+                    получить качественные знания и подготовиться
+                    к поступлению в лучшие университеты.
+                </p>
+
+                <p>
+                    Наш подход сочетает академическое образование,
+                    изучение иностранных языков, современные технологии
+                    и развитие лидерских качеств.
+                </p>
+
+                <button class="second-btn" onclick="showInfo()">
+                    Узнать больше
+                </button>
+            </div>
+
+            <div class="about-card">
+                <span>🎓</span>
+                <h3>Современное образование</h3>
+                <p>
+                    Знания и навыки, необходимые
+                    для успешного будущего.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Наш кампус -->
+<section class="campus" id="campus">
+
+    <div class="section-title">
+        <p>НАШ КАМПУС</p>
+        <h2>Современная школьная среда</h2>
+
+        <div class="campus-description">
+            Diplomat International School создаёт комфортную
+            и вдохновляющую атмосферу для обучения, развития
+            и отдыха каждого ученика.
+        </div>
+    </div>
+
+    <div class="campus-gallery">
+
+        <!-- Библиотека -->
+        <div class="campus-photo">
+            <img src="library.jpg" alt="Библиотека">
+
+            <div class="photo-title">
+                📚 Библиотека
+            </div>
+        </div>
+
+
+        <!-- Классы -->
+        <div class="campus-photo">
+            <img src="classroom.jpg" alt="Классы">
+
+            <div class="photo-title">
+                🎓 Классы
+            </div>
+        </div>
+
+
+        <!-- Спортивный зал -->
+        <div class="campus-photo">
+            <img src="gym.jpg" alt="Спортивный зал">
+
+            <div class="photo-title">
+                🏀 Спортивный зал
+            </div>
+        </div>
+
+
+        <!-- Столовая -->
+        <div class="campus-photo">
+            <img src="cafeteria.jpg" alt="Столовая">
+
+            <div class="photo-title">
+                🍽️ Столовая
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- Преимущества -->
+    <section class="advantages" id="advantages">
+
+        <div class="section-title">
+            <p>НАШИ ПРЕИМУЩЕСТВА</p>
+            <h2>Почему выбирают нас?</h2>
+        </div>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="card-icon">🌎</div>
+                <h3>Международный подход</h3>
+                <p>
+                    Подготовка учеников к обучению
+                    и жизни в международной среде.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">📚</div>
+                <h3>Сильное образование</h3>
+                <p>
+                    Современные программы и
+                    внимательные преподаватели.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">💡</div>
+                <h3>Развитие талантов</h3>
+                <p>
+                    Спорт, творчество, технологии
+                    и дополнительные занятия.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">👨‍🏫</div>
+                <h3>Индивидуальный подход</h3>
+                <p>
+                    Помогаем каждому ученику
+                    достигать своих целей.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Меню столовой -->
+<section class="cafeteria" id="menu">
+
+    <div class="section-title">
+        <p>ШКОЛЬНАЯ СТОЛОВАЯ</p>
+
+        <div class="cafeteria-description">
+            В Diplomat International School забота о здоровье —
+            основа успешного обучения. Наше меню разработано
+            диетологами и шеф-поварами специально для поддержки
+            высокой умственной активности и крепкого иммунитета учеников.
+        </div>
+
+        <h2>Меню</h2>
+    </div>
+
+    <div class="menu-cards">
+
+        <!-- Завтрак -->
+        <div class="menu-card">
+            <div class="menu-icon">🥐</div>
+
+            <h3>Завтрак</h3>
+            <span class="menu-time">08:00 — 09:00</span>
+
+            <ul>
+                <li>🥣 Каша с фруктами</li>
+                <li>🍳 Омлет</li>
+                <li>🍎 Свежие фрукты</li>
+                <li>🥛 Молоко или чай</li>
+                <li>🥣 Творог</li>
+                <li>🧀 Сырки</li>
+                <li>🍞 Гренки</li>
+                <li>🥚 Варёное яйцо</li>
+            </ul>
+        </div>
+
+
+        <!-- Обед -->
+        <div class="menu-card featured">
+            <div class="menu-icon">🍲</div>
+
+            <h3>Обед</h3>
+            <span class="menu-time">12:30 — 14:00</span>
+
+            <ul>
+                <li>🥗 Свежий салат</li>
+                <li>🍲 Суп дня</li>
+                <li>🍽️ Второе блюдо</li>
+                <li>🍞 Хлеб</li>
+                <li>🧃 Компот или сок</li>
+            </ul>
+        </div>
+
+
+        <!-- Полдник -->
+        <div class="menu-card">
+            <div class="menu-icon">🍪</div>
+
+            <h3>Полдник</h3>
+            <span class="menu-time">16:00 — 16:30</span>
+
+            <ul>
+                <li>🥪 Бутерброд</li>
+                <li>🍌 Банан или яблоко</li>
+                <li>🍪 Печенье</li>
+                <li>🥐 Круассан</li>
+                <li>🧁 Булочка с начинкой</li>
+                <li>🥧 Пирог с яблоком</li>
+                <li>🧃 Сок или йогурт</li>
+                <li>🥪 Клаб-сендвич</li>
+                <li>🌭 Сосиска в тесте</li>
+                <li>🥟 Сомса</li>
+                <li>🍕 Пицца</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <p class="menu-note">
+        🍽️ Меню может изменяться в зависимости от дня недели.
+    </p>
+
+</section>
+
+
+    <!-- Контакты -->
+    <section class="contact" id="contact">
+
+        <div class="section-title">
+            <p>КОНТАКТЫ</p>
+            <h2>Свяжитесь с нами</h2>
+        </div>
+
+        <div class="contact-box">
+
+            <div>
+                <span>📍</span>
+                <h3>Адрес</h3>
+                <p>Ташкент, Чилланзар-5,36B</p>
+            </div>
+
+            <div>
+                <span>📞</span>
+                <h3>Телефон</h3>
+                <p>+998 50 111 73 52</p>
+            </div>
+
+            <div>
+                <span>✉️</span>
+                <h3>Email</h3>
+                <p>info@diplomatschool.uz</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Подвал -->
+    <footer>
+
+        <div class="footer-logo">
+            🎓 Diplomat International School
+        </div>
+
+        <p>
+            © 2026 Diplomat International School.
+            Все права защищены.
+        </p>
+
+    </footer>
+
+
+    <!-- Уведомление -->
+    <div class="notification" id="notification">
+        <span id="notificationText"></span>
+        <button onclick="closeNotification()">✕</button>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
