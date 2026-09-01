@@ -739,3 +739,288 @@ footer p {
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================
+   ОБРАЗОВАТЕЛЬНЫЕ ПРОГРАММЫ
+========================= */
+
+.programs {
+    padding: 90px 7%;
+    background: #f7f9fc;
+}
+
+.programs-description {
+    max-width: 750px;
+    margin: 20px auto 45px;
+
+    color: #697386;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.programs-cards {
+    max-width: 1150px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 22px;
+}
+
+.program-card {
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 18px;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
+
+    transition: 0.3s;
+
+    border-bottom: 4px solid transparent;
+}
+
+.program-card:hover {
+    transform: translateY(-8px);
+
+    border-bottom: 4px solid #1765a7;
+
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.program-icon {
+    width: 65px;
+    height: 65px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #eef5fc;
+
+    border-radius: 15px;
+
+    font-size: 35px;
+
+    margin-bottom: 22px;
+}
+
+.program-card h3 {
+    color: #123f79;
+    font-size: 21px;
+
+    margin-bottom: 14px;
+}
+
+.program-card p {
+    color: #697386;
+
+    line-height: 1.6;
+
+    font-size: 15px;
+
+    margin-bottom: 20px;
+}
+
+.program-card span {
+    display: inline-block;
+
+    padding: 7px 12px;
+
+    background: #eef5fc;
+
+    color: #1765a7;
+
+    border-radius: 20px;
+
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+/* Планшет */
+
+@media (max-width: 1000px) {
+
+    .programs-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/* Телефон */
+
+@media (max-width: 600px) {
+
+    .programs-cards {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================
+   НАШИ ПРЕПОДАВАТЕЛИ
+========================= */
+
+.teachers {
+    padding: 90px 7%;
+    background: #ffffff;
+}
+
+.teachers-description {
+    max-width: 750px;
+    margin: 20px auto 45px;
+
+    color: #697386;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.teachers-grid {
+    max-width: 1200px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 22px;
+}
+
+.teacher-card {
+    background: #f7f9fc;
+
+    border-radius: 18px;
+    overflow: hidden;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
+
+    transition: 0.3s;
+}
+
+.teacher-card:hover {
+    transform: translateY(-8px);
+
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+
+/* Фото */
+
+.teacher-photo {
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+}
+
+.teacher-photo img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+
+    transition: 0.4s;
+}
+
+.teacher-card:hover .teacher-photo img {
+    transform: scale(1.05);
+}
+
+
+/* Информация */
+
+.teacher-info {
+    padding: 25px;
+}
+
+.teacher-info h3 {
+    color: #123f79;
+    font-size: 21px;
+
+    margin-bottom: 8px;
+}
+
+.teacher-subject {
+    color: #596579;
+    font-weight: bold;
+
+    margin-bottom: 15px;
+}
+
+
+/* Достижение */
+
+.teacher-achievement {
+    display: inline-block;
+
+    padding: 8px 12px;
+
+    background: #eaf3fc;
+
+    color: #1765a7;
+
+    border-radius: 20px;
+
+    font-size: 13px;
+    font-weight: bold;
+
+    margin-bottom: 15px;
+}
+
+.teacher-text {
+    color: #697386;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+}
+
+
+/* Планшет */
+
+@media (max-width: 1000px) {
+
+    .teachers-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/* Телефон */
+
+@media (max-width: 600px) {
+
+    .teachers-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
